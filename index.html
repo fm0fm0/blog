@@ -1,212 +1,772 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+
+
+<html class="theme-next pisces use-motion" lang="zh-tw">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="參加六角學院的w3HexSchool 鼠年全馬鐵人挑戰，目標每週一文！">
+<meta property="og:type" content="website">
+<meta property="og:title" content="0與1之間">
+<meta property="og:url" content="https://fm0fm0.github.io/blog/index.html/index.html">
+<meta property="og:site_name" content="0與1之間">
+<meta property="og:description" content="參加六角學院的w3HexSchool 鼠年全馬鐵人挑戰，目標每週一文！">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:author" content="圈圈 Rainie">
+<meta property="article:tag" content="前端自學筆記">
 <meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://fm0fm0.github.io/blog/index.html/"/>
+
+
+
+
+
+  <title>0與1之間</title>
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+
+
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="index.html" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="index.html">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
+
   
-    <article id="post-2020-2-2-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="2020/02/02/2020-2-2-hello-world/" class="article-date">
-  <time datetime="2020-02-01T16:00:00.000Z" itemprop="datePublished">2020-02-02</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="2020/02/02/2020-2-2-hello-world/">這是一個部落格在部落</a>
-    </h1>
+    
   
 
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">0與1之間</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">平面轉職網頁的自學筆記</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            關於
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分類
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            歸檔
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fm0fm0.github.io/blog/index.html2020/02/02/2020-2-2-hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圈圈 Rainie">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="0與1之間">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="2020/02/02/2020-2-2-hello-world/" itemprop="url">用Hexo創建免費人氣blog部落格 for Mac</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2020-02-02T00:00:00+08:00">
+                2020-02-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/Hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
     
-    <div class="article-entry" itemprop="articleBody">
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+      
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+      
+        
+          
+            <blockquote>
+<p>本篇記錄我第一次使用Hexo安裝的過程，作業系統平台為macOS High Sierra 10.13.6<br>參考資源：<a href="https://hexo.io/zh-tw/docs/" target="_blank" rel="noopener"><strong>Hexo 官方文件</strong></a> 、 <a href="https://www.youtube.com/watch?v=jOJI9ekTzK8&t=1347s" target="_blank" rel="noopener"><strong>六角學院-使用 Hexo 建構個人化部落格</strong></a> </p>
+</blockquote>
+<p>適合有寫code基礎的族群，使用<a href="https://markdown.tw/" target="_blank" rel="noopener">Markdown</a>做為寫作基礎<br>其他作業系統如windows或linux也可以用Hexo，安裝步驟可能會跟本篇不太一樣</p>
+<h2 id="前置作業"><a href="#前置作業" class="headerlink" title="前置作業"></a>前置作業</h2><p>開始之前須準備4個東西</p>
+<ul>
+<li><strong>Node.js</strong> (Node.js 版本需不低於8.10，建議使用 Node.js 10.0 及以上版本)</li>
+<li><strong>git</strong></li>
+<li><strong>Xcode</strong> (Mac使用者才要裝)</li>
+<li><strong>Github</strong> (註冊帳號密碼，可以當作網路免費空間的概念)</li>
+</ul>
+<h2 id="使用spotlight開啟終端機"><a href="#使用spotlight開啟終端機" class="headerlink" title="使用spotlight開啟終端機"></a>使用spotlight開啟<strong>終端機</strong></h2><!-- 
+![fakeimg](https://i.imgur.com/PjUhQBB.gif)
+-->
+<h2 id="安裝-Node-js"><a href="#安裝-Node-js" class="headerlink" title="安裝 Node.js"></a>安裝 Node.js</h2><ol>
+<li>使用官方 <a href="https://nodejs.org/en/" target="_blank" rel="noopener"><strong>Node.js</strong></a> 點選LTS版本下載，我的版本是node-v12.14.1</li>
+<li>打開dmg檔執行安裝</li>
+</ol>
+<h2 id="安裝-git"><a href="#安裝-git" class="headerlink" title="安裝 git"></a>安裝 git</h2><ol>
+<li>使用官方 <a href="https://git-scm.com/" target="_blank" rel="noopener"><strong>git</strong></a> 點選Download下載</li>
+<li>打開dmg檔執行安裝<blockquote>
+<p>跑不過的時候可能會需要下sudo的指令</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="安裝-Xcode"><a href="#安裝-Xcode" class="headerlink" title="安裝 Xcode"></a>安裝 Xcode</h2><p>Hexo文件提及 Mac使用者可能會編譯有問題，所以要再加裝Xcode</p>
+<ol>
+<li>開啟 app store 搜尋 Xcode 下載</li>
+<li>執行安裝<blockquote>
+<p>[!NOTE]<br>我在這裡卡關，因為系統跳提示需要 macOS Mojave 10.14.6 才給裝<br>所以另外在 Apple Developer尋找降階版本免費安裝<br><a href="https://idmsa.apple.com/IDMSWebAuth/signin?appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2Fdownload%2Fmore%2F&rv=1" target="_blank" rel="noopener"><strong>More Downloads for Apple Developers</strong></a> 輸入帳密登入，尋找最近新的版本下載 我下載的版本是Xcode_9.4.4 (5.27GB很肥) </p>
+</blockquote>
+</li>
+</ol>
+<h2 id="安裝-Hexo"><a href="#安裝-Hexo" class="headerlink" title="安裝 Hexo"></a>安裝 Hexo</h2><p>以上步驟完成後，開啟終端機輸入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h2 id="寫完文章後，將-Hexo-從本地端推上-Github"><a href="#寫完文章後，將-Hexo-從本地端推上-Github" class="headerlink" title="寫完文章後，將 Hexo 從本地端推上 Github"></a>寫完文章後，將 Hexo 從本地端推上 Github</h2><ol>
+<li><p>在終端機把服務停掉，輸入指令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Ctrl + C</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在終端機編譯靜態網站，輸入指令後產生public資料夾</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在Github開一個儲存庫<strong>Create a new repository</strong>，點選<strong>NEW</strong>，填入<strong>repository name</strong>，按<strong>Create repository</strong></p>
+<blockquote>
+<p>注意每個人只有一個主帳號，填入<strong>repository name</strong>有兩種選擇：</p>
+<ol>
+<li>網址為<strong>yourname.github.io</strong>，放主帳號根目錄下，請填帳號名稱<strong>yourname.github.io</strong></li>
+<li>網址為<strong>yourname.github.io/blog</strong>，放根目錄下另開新資料夾，<strong>repository name</strong>請填自訂的資料夾名稱(例如blog)<br>差別在於主帳號網址是唯一，另開資料夾網址可以無限多個</li>
+</ol>
+</blockquote>
+</li>
+<li><p>回到終端機，把git建起來</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">"1234"</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>$ hexo init [folder]建立一個新的網站。<br> 如果沒有設定 folder 的話，Hexo 會在目前的資料夾建立網站。</p>
+</blockquote>
+</li>
+<li><p>在Github把剛才產生的<strong>or push an exsting repository from the command line</strong>區塊貼到終端機上</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git remote add origin git@github.com:fm0fm0/blog.git</span><br><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>這段每個人產出的不一樣喔~只是參考，這麼做可以把當下的原始碼推上Github</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="連接Github把網頁公開發佈，讓所有人看見"><a href="#連接Github把網頁公開發佈，讓所有人看見" class="headerlink" title="連接Github把網頁公開發佈，讓所有人看見"></a>連接Github把網頁公開發佈，讓所有人看見</h2><ol>
+<li>把public資料夾推上Github另一個branch，打開_config.yml檔案</li>
+<li>貼在_config.yml的最下方覆蓋原本的deploy設定<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line"> <span class="built_in">type</span>: git</span><br><span class="line"> repo:</span><br><span class="line"> branch: gh-pages</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>branch想放主分支請填master</p>
+</blockquote>
+</li>
+<li>回到Github複製儲存庫(repo)，點選<strong>Clone or Download</strong>按鈕顯示儲存庫路徑，貼在repo後</li>
+<li>安裝hexo自動部屬工具<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+<li>回到終端機輸入部屬指令，部屬所有內容在Github上<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<h2 id="完工"><a href="#完工" class="headerlink" title="完工!!"></a>完工!!</h2><p>重新整理Github可以看到內容已改變，變成public資料夾的內容<br>branch也多了剛剛新增的gh-pages<br>在Github的setting找到<strong>Github Pages</strong>部落格的網址路徑在這兒，點開他就對啦!!</p>
+<hr>
+<h2 id="同場加映：Hexo常用終端機指令"><a href="#同場加映：Hexo常用終端機指令" class="headerlink" title="同場加映：Hexo常用終端機指令"></a>同場加映：Hexo常用終端機指令</h2><p>運行     <code>$ hexo server</code><br>停止     <code>$ ctrl+c</code><br>編譯     <code>$ hexo g</code><br>發佈     <code>$ hexo d</code><br>清除緩存  <code>$ hexo clean</code><br>測試     <code>$ hexo s --debug</code></p>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/02/02/2020-2-2-hello-world/" data-id="ck64zvgbo0007r1v1asmq4qk6" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/%E5%89%8D%E7%AB%AF%E6%96%87/" rel="tag">前端文</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="tags/%E5%BE%8C%E7%AB%AF%E6%96%87/" rel="tag">後端文</a></li></ul>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+  </section>
 
   
 
 
-</section>
+          </div>
+          
+
+
+          
+
+        </div>
         
-          <aside id="sidebar">
+          
   
-    
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="tags/%E5%89%8D%E7%AB%AF%E6%96%87/" rel="tag">前端文</a></li><li class="tag-list-item"><a class="tag-list-link" href="tags/%E5%BE%8C%E7%AB%AF%E6%96%87/" rel="tag">後端文</a></li></ul>
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-
-  
+  <aside id="sidebar" class="sidebar">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="tags/%E5%89%8D%E7%AB%AF%E6%96%87/" style="font-size: 10px;">前端文</a> <a href="tags/%E5%BE%8C%E7%AB%AF%E6%96%87/" style="font-size: 10px;">後端文</a>
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="圈圈 Rainie" />
+            
+              <p class="site-author-name" itemprop="name">圈圈 Rainie</p>
+              <p class="site-description motion-element" itemprop="description">參加六角學院的w3HexSchool 鼠年全馬鐵人挑戰，目標每週一文！</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/%20%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">文章</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分類</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">標籤</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
     </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="archives/2020/02/">February 2020</a></li></ul>
-    </div>
-  </div>
+  </aside>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="2020/02/02/2020-2-2-hello-world/">這是一個部落格在部落</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">圈圈 Rainie Wang</span>
+
   
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="index.html" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 強力驅動</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主題 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
-
-  
-<script src="fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="js/script.js"></script>
-
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
