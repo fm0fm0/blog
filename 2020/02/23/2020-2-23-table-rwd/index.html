@@ -18,8 +18,8 @@
   
     
     
-  <script src="../lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="../lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+  <script src="../../../../lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="../../../../lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -47,7 +47,7 @@
 
   
   
-  <link href="../lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="../../../../lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -55,29 +55,27 @@
 
 
 
-<link href="../lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="../../../../lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="../css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon-next.png?v=5.1.4">
+<link href="../../../../css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../../images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../images/favicon-32x32-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="../images/logo.svg?v=5.1.4" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../images/favicon-16x16-next.png?v=5.1.4">
 
 
+  <link rel="mask-icon" href="../../../../images/logo.svg?v=5.1.4" color="#222">
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
 
 
+  <meta name="keywords" content="w3HexSchool,CSS,RWD,table," />
 
 
 
@@ -86,17 +84,22 @@
 
 
 
-<meta name="description" content="參加六角學院的w3HexSchool 鼠年全馬鐵人挑戰，目標每週一文！">
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="https://fm0fm0.github.io/blog/categories/index.html">
+
+
+<meta name="description" content="做響應式表格常會面臨欄數過多問題要把桌機內容全塞進手機裡很頭痛啊～一般來說將表格做橫向捲軸結束這回合就好但ＸＹ軸都充滿資料的時候這招也很尷尬要看個表格要上上下下左左右右的對使用者很不友善 另一種折衷方案是手機版通常會將最重要的資料保留，其餘不顯示僅在桌機版時顯示最完整資料(多希望業主斷捨離一下) but… 最怕業主説“我一個都不能少!!”的莫名堅持在“斷捨離”與“一個都不能少”之間難道沒有優雅的解">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用 data-th 實現響應式表格的方法(table RWD)">
+<meta property="og:url" content="https://fm0fm0.github.io/blog/2020/02/23/2020-2-23-table-rwd/index.html">
 <meta property="og:site_name" content="0與1之間">
-<meta property="og:description" content="參加六角學院的w3HexSchool 鼠年全馬鐵人挑戰，目標每週一文！">
+<meta property="og:description" content="做響應式表格常會面臨欄數過多問題要把桌機內容全塞進手機裡很頭痛啊～一般來說將表格做橫向捲軸結束這回合就好但ＸＹ軸都充滿資料的時候這招也很尷尬要看個表格要上上下下左左右右的對使用者很不友善 另一種折衷方案是手機版通常會將最重要的資料保留，其餘不顯示僅在桌機版時顯示最完整資料(多希望業主斷捨離一下) but… 最怕業主説“我一個都不能少!!”的莫名堅持在“斷捨離”與“一個都不能少”之間難道沒有優雅的解">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2020-02-16T08:50:09.000Z">
-<meta property="article:modified_time" content="2020-02-16T09:32:04.618Z">
+<meta property="article:published_time" content="2020-02-22T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-02-23T14:39:16.558Z">
 <meta property="article:author" content="圈圈 Rainie">
-<meta property="article:tag" content="前端自學筆記">
+<meta property="article:tag" content="w3HexSchool">
+<meta property="article:tag" content="CSS">
+<meta property="article:tag" content="RWD">
+<meta property="article:tag" content="table">
 <meta name="twitter:card" content="summary">
 
 
@@ -127,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="https://fm0fm0.github.io/blog/categories/"/>
+  <link rel="canonical" href="https://fm0fm0.github.io/blog/2020/02/23/2020-2-23-table-rwd/"/>
 
 
 
 
 
-  <title>categories | 0與1之間</title>
+  <title>用 data-th 實現響應式表格的方法(table RWD) | 0與1之間</title>
   
 
 
@@ -282,40 +285,235 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fm0fm0.github.io/blog">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="圈圈 Rainie">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="../../../../images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="0與1之間">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">categories</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="category-all-page">
-            <div class="category-all-title">
-                目前共計 4 個分類
-            </div>
-            <div class="category-all">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="CSS/">CSS</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="Hexo/">Hexo</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="bootstrap/">bootstrap</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="tools/">tools</a><span class="category-list-count">1</span></li></ul>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">用 data-th 實現響應式表格的方法(table RWD)</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">發表於</span>
+              
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2020-02-23T00:00:00+08:00">
+                2020-02-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分類於</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="../../../../categories/CSS/" itemprop="url" rel="index">
+                    <span itemprop="name">CSS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2020/02/23/2020-2-23-table-rwd/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>做響應式表格常會面臨欄數過多問題<br>要把桌機內容全塞進手機裡很頭痛啊～<br>一般來說將表格做橫向捲軸結束這回合就好<br>但ＸＹ軸都充滿資料的時候這招也很尷尬<br>要看個表格要上上下下左左右右的<br>對使用者很不友善</p>
+<p>另一種折衷方案是<br>手機版通常會將最重要的資料保留，其餘不顯示<br>僅在桌機版時顯示最完整資料<br>(多希望業主斷捨離一下)</p>
+<p>but…</p>
+<p>最怕業主説“我一個都不能少!!”的莫名堅持<br>在“斷捨離”與“一個都不能少”之間<br>難道沒有優雅的解決方案嗎?</p>
+<p>這裡有個很棒的解決方案就是利用<code>data-th</code><br>面對再長的表格再也不頭痛<br>在手機版呈現會直接破壞原本多欄的呈現<br>變成雙欄模式<br>變得更適合手機閱讀</p>
+<h2 id="範例"><a href="#範例" class="headerlink" title="範例"></a>範例</h2><table>
+  <thead>
+    <tr>
+      <th>排名</th>
+      <th>等級</th>
+      <th>會員</th>
+      <th>積分</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-th="排名">1</td>
+      <td data-th="等級">達人級會員</td>
+      <td data-th="會員">乖乖</td>
+      <td data-th="積分">9309</td>
+    </tr>
+    <tr>
+      <td data-th="排名">2</td>
+      <td data-th="等級">達人級會員</td>
+      <td data-th="會員">路比</td>
+      <td data-th="積分">9309</td>
+    </tr>
+    <tr>
+      <td data-th="排名">3</td>
+      <td data-th="等級">達人級會員</td>
+      <td data-th="會員">小A</td>
+      <td data-th="積分">9309</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="html結構如下"><a href="#html結構如下" class="headerlink" title="html結構如下"></a>html結構如下</h2><blockquote>
+<p>關鍵在 <code>&lt;td&gt;</code>內加入data-th=””<br>內容填上對應的<code>&lt;th&gt;</code>即可</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;</span><br><span class="line">  &lt;thead&gt;</span><br><span class="line">    &lt;tr&gt;</span><br><span class="line">      &lt;th&gt;排名&lt;&#x2F;th&gt;</span><br><span class="line">      &lt;th&gt;等級&lt;&#x2F;th&gt;</span><br><span class="line">      &lt;th&gt;會員&lt;&#x2F;th&gt;</span><br><span class="line">      &lt;th&gt;積分&lt;&#x2F;th&gt;</span><br><span class="line">    &lt;&#x2F;tr&gt;</span><br><span class="line">  &lt;&#x2F;thead&gt;</span><br><span class="line">  &lt;tbody&gt;</span><br><span class="line">    &lt;tr&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;排名&quot;&gt;1&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;等級&quot;&gt;達人級會員&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;會員&quot;&gt;乖乖&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;積分&quot;&gt;9309&lt;&#x2F;td&gt;</span><br><span class="line">    &lt;&#x2F;tr&gt;</span><br><span class="line">    &lt;tr&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;排名&quot;&gt;2&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;等級&quot;&gt;達人級會員&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;會員&quot;&gt;路比&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;積分&quot;&gt;9309&lt;&#x2F;td&gt;</span><br><span class="line">    &lt;&#x2F;tr&gt;</span><br><span class="line">    &lt;tr&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;排名&quot;&gt;3&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;等級&quot;&gt;達人級會員&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;會員&quot;&gt;小A&lt;&#x2F;td&gt;</span><br><span class="line">      &lt;td data-th&#x3D;&quot;積分&quot;&gt;9309&lt;&#x2F;td&gt;</span><br><span class="line">    &lt;&#x2F;tr&gt;</span><br><span class="line">  &lt;&#x2F;tbody&gt;</span><br><span class="line">&lt;&#x2F;table&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="css結構如下"><a href="#css結構如下" class="headerlink" title="css結構如下"></a>css結構如下</h2><blockquote>
+<p>關鍵在<code>td:before</code>的<code>content:attr(data-th)&quot;:&quot;;</code></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">table&#123;</span><br><span class="line">  border-collapse:collapse; &#x2F;*表格間隙消失*&#x2F;</span><br><span class="line">&#125;</span><br><span class="line">thead&#123;</span><br><span class="line">  background: #000;</span><br><span class="line">  color:#fff;</span><br><span class="line">&#125;</span><br><span class="line">td&#123;</span><br><span class="line">  padding: 10px 50px;</span><br><span class="line">  border:1px solid #eee;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">@media screen and (max-width:600px)&#123;</span><br><span class="line">  thead&#123;</span><br><span class="line">    display: none;</span><br><span class="line">  &#125;</span><br><span class="line">  </span><br><span class="line">  tr:nth-child(odd)&#123;</span><br><span class="line">    background: #ffa;</span><br><span class="line">  &#125;</span><br><span class="line">  td&#123;</span><br><span class="line">    display: block;</span><br><span class="line">    width: 100%;</span><br><span class="line">  &#125;</span><br><span class="line">  td:before&#123;</span><br><span class="line">    content:attr(data-th)&quot;:&quot;; &#x2F;*關鍵語法*&#x2F;</span><br><span class="line">    font-weight: bold;</span><br><span class="line">    color: #faa;</span><br><span class="line">    margin-right: 6px;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>[看codepen示範1-純table]（<a href="https://codepen.io/rainiewang/pen/rNBGOvx）" target="_blank" rel="noopener">https://codepen.io/rainiewang/pen/rNBGOvx）</a><br>[看codepen示範2-bootstrap-table]（<a href="https://codepen.io/rainiewang/pen/oNvGXeN）" target="_blank" rel="noopener">https://codepen.io/rainiewang/pen/oNvGXeN）</a></p>
+<hr>
+<h2 id="同場加映"><a href="#同場加映" class="headerlink" title="同場加映"></a>同場加映</h2><p>這邊分享一個偷懶的小工具 - 自動表格RWD線上工具<br>只要輸入資料，自動帶出符合RWD效果的程式碼<br>不過需下載他的css才能運作喔～<br><a href="https://ianrmedia.unl.edu/responsive-table-generator-tool" target="_blank" rel="noopener">Responsive Table Generator Tool</a></p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="../../../../tags/w3HexSchool/" rel="tag"># w3HexSchool</a>
+          
+            <a href="../../../../tags/CSS/" rel="tag"># CSS</a>
+          
+            <a href="../../../../tags/RWD/" rel="tag"># RWD</a>
+          
+            <a href="../../../../tags/table/" rel="tag"># table</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="../../16/2020-2-16-new-article/" rel="next" title="Hexo建立新文章/插入圖片/新增tag的方法">
+                <i class="fa fa-chevron-left"></i> Hexo建立新文章/插入圖片/新增tag的方法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -324,6 +522,20 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -344,13 +556,22 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            本站概覽
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="../images/avatar.jpg"
+                src="../../../../images/avatar.jpg"
                 alt="圈圈 Rainie" />
             
               <p class="site-author-name" itemprop="name">圈圈 Rainie</p>
@@ -362,7 +583,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="../archives/%20%7C%7C%20archive">
+                <a href="../../../../archives/%20%7C%7C%20archive">
               
                   <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">文章</span>
@@ -374,7 +595,7 @@
               
               
               <div class="site-state-item site-state-categories">
-                <a href="">
+                <a href="../../../../categories/index.html">
                   <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">分類</span>
                 </a>
@@ -385,7 +606,7 @@
               
               
               <div class="site-state-item site-state-tags">
-                <a href="../tags/index.html">
+                <a href="../../../../tags/index.html">
                   <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">標籤</span>
                 </a>
@@ -409,6 +630,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#範例"><span class="nav-number">1.</span> <span class="nav-text">範例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#html結構如下"><span class="nav-number">2.</span> <span class="nav-text">html結構如下</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#css結構如下"><span class="nav-number">3.</span> <span class="nav-text">css結構如下</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#同場加映"><span class="nav-number">4.</span> <span class="nav-text">同場加映</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -516,64 +753,64 @@
 
   
   
-    <script type="text/javascript" src="../lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="../../../../lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="../lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+    <script type="text/javascript" src="../../../../lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   
 
   
   
-    <script type="text/javascript" src="../lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+    <script type="text/javascript" src="../../../../lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
   
-    <script type="text/javascript" src="../lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="../../../../lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="../lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="../../../../lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="../lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="../../../../lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
-
-
-  
-
-
-  <script type="text/javascript" src="../js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="../js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="../js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="../js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-  <script type="text/javascript" src="../js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="../js/src/post-details.js?v=5.1.4"></script>
-
 
 
   
 
 
-  <script type="text/javascript" src="../js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="../../../../js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="../../../../js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="../../../../js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="../../../../js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="../../../../js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="../../../../js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="../../../../js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -586,6 +823,18 @@
       <script id="dsq-count-scr" src="https://Rainie.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://fm0fm0.github.io/blog/2020/02/23/2020-2-23-table-rwd/';
+          this.page.identifier = '2020/02/23/2020-2-23-table-rwd/';
+          this.page.title = '用 data-th 實現響應式表格的方法(table RWD)';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://Rainie.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
